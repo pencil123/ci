@@ -1,0 +1,61 @@
+.navbar-min {
+  margin-bottom: 0px;
+}
+
+.thumbnail {
+  background-color: #f1f1f1;
+}
+.thumbnail:hover{
+  background-color: white;
+  border: 1px solid #333;
+}
+
+.thumbnail:hover h5 {
+  color:red;
+}
+.thumbnail:hover p {
+  color:red;
+  font-weight: bold;
+}
+
+.pagination {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.thumbnail p {
+  font-size: 17px;
+}
+
+[class*="col-"]{
+  padding: 5px;
+}
+
+footer {
+  border-top: #ce003f solid 2px;
+  clear: both;
+  margin-top:10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:20px;
+  background-color: #0D3349;
+}
+/*.cut-padding {
+margin-right: -10px;
+margin-left: -10px;
+}*/
+
+.youlike {
+  font-size:20px;
+  color:red;
+  padding-left:10px;
+}
+
+.goods-content {
+  border-top: red solid 2px;
+}
+
+.img-ks-lazyload {
+  display: block;
+  width: 100%;
+}
